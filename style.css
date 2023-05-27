@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+/* font-family: 'Bai Jamjuree', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  /* padding: 3rem; */
+  background: url('images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  background-size: 100% 10%;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+  /* border: 1px solid #444; */
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  padding: 0.2rem;
+}
+
+h2 {
+  padding: 1rem;
+}
+
+.android-button,
+.ios-button {
+  color: #fff;
+  background-color: hsl(233, 100%, 69%);
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  box-shadow: 1px 2px 3px #ddd;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  margin: 0.25rem;
+}
+
+.ios-button {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.android-button:hover {
+  box-shadow: 1px 2px 5px hsl(233, 100%, 69%);
+}
+
+.ios-button:hover {
+  box-shadow: 1px 2px 5px hsl(171, 66%, 44%);
+}
+
+/* #End Global styles */
+
+/* #Start header styles */
+header {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+/* .head-logo {
+  padding: 2rem 0;
+} */
+
+.head-text h1 {
+  padding: 1rem;
+}
+/* .head-text p {
+  padding: 0.1rem;
+} */
+
+.head-buttons .container {
+  display: flex;
+  justify-content: center;
+
+  padding: 2rem;
+}
+
+/* #End header styles */
+/* #Start track-section styles */
+
+.track-section {
+  padding: 3rem 0;
+}
+
+.track-section img {
+  width: 100%;
+}
+.track-text {
+  text-align: center;
+}
+
+.track-benefits {
+  padding: 4rem 0;
+  display: flex;
+}
+
+.benefits-img {
+  margin-left: -2rem;
+}
+
+.benefits-list {
+  margin: 4rem;
+  width: 30%;
+}
+
+.benefits-list .list {
+  margin-bottom: 3rem;
+}
+
+/* #End track-section styles */
+
+/* #Start clipboard styles */
+
+.clipboard-img {
+  padding: 2rem 0;
+  width: 100%;
+}
+.clipboard-img img {
+  max-width: 100%;
+  /* display: none; */
+}
+
+/* #END clipboard styles */
+
+/* #Start Workflow styles */
+
+.workflow .workflow-items img {
+  width: 40px;
+  margin: 1rem;
+}
+
+.workflow .workflow-items {
+  display: flex;
+  text-align: center;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.workflow-items .item {
+  width: 32%;
+  padding: 1rem;
+}
+
+.item h3 {
+  padding: 0.5rem;
+}
+
+/* #END Workflow styles */
+
+/* #Start company-brand */
+
+.company-brands .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+
+/* #END company-brand */
+.clip-ios-android {
+  padding: 2rem;
+  text-align: center;
+}
+
+.clip-ios-android .container {
+  padding: 2rem;
+}
+/* #start clip ios  */
+
+/* #footer */
+
+footer {
+  background-color: #f0f0f085;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 10rem 1fr 10rem;
+  align-items: center;
+  padding: 2rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer .footer-logo img {
+  width: 4rem;
+}
+
+.footer-list ul,
+.footer-social ul {
+  display: flex;
+}
+
+.footer-list ul li {
+  margin-right: 1rem;
+}
+
+.footer-social ul li {
+  margin-right: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 985px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 870px) {
+  /* .container {
+    width: 95%;
+  } */
+
+  .head-buttons .container {
+    flex-direction: column;
+  }
+
+  .track-benefits {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .track-benefits .benefits-img {
+    margin: 2rem auto;
+  }
+
+  .benefits-img img {
+    width: 100%;
+  }
+
+  .benefits-list {
+    width: 90%;
+    margin: 1rem;
+    text-align: center;
+  }
+
+  .workflow-items {
+    flex-direction: column;
+  }
+  .workflow-items .item {
+    width: 100%;
+  }
+
+  .company-brands .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .company-brands .container img {
+    width: 8rem;
+    margin-bottom: 4rem;
+  }
+
+  .clip-ios-android {
+    padding: 0;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-list ul {
+    flex-direction: column;
+  }
+  .footer-list ul li {
+    margin: 1rem;
+  }
+
+  .footer-social ul {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .footer-social ul li {
+    margin-left: 1rem;
+  }
+  .android-button,
+  .ios-button {
+    width: 100%;
+  }
+}
