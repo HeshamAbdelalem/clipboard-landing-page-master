@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [here](https://your-solution-url.com)
-- Live Site URL: [here](https://your-live-site-url.com)
+- Solution URL: [here](https://github.com/HeshamAbdelalem/clipboard-landing-page-master)
+- Live Site URL: [here](https://heshamabdelalem.github.io/clipboard-landing-page-master/)
 
 ## My process
 
